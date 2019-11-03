@@ -8,14 +8,17 @@
 ## Running UMMKD
 To run our 2D version, can directly use the tfrecord data released in our another relevant project from [here](https://github.com/carrenD/Medical-Cross-Modality-Domain-Adaptation)
 
-To train the model, specify the training configurations (can simply use the default setting), and run:
+To train the model, specify the training configurations (can simply use the default setting), in main_combine.py set:
+
 ```
-python main_combine.py  --phase training
+restored_model = None
+main(restored_model = restored_model, phase='training')
 ```
 
-To test the model, specify the path of the model to be tested, and run:
+To test the model, specify the path of the model to be tested, in main_combine.py set:
 ```
-python main_combine.py  --phase testing
+test_model = '/path/to/test_model.cpkt'
+source_dice, target_dice = main(test_model=test_model, phase='testing')
 ```
 
 Tensorboard will be automatically launched with port specified in main_combine.py
