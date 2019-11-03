@@ -1,2 +1,2 @@
 # ummkd
-Unpaired Multi-modal Learing with Knowledge Distillation
+Unpaired Multi-modal Segmentation with Knowledge Distillation
