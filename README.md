@@ -7,12 +7,12 @@
 ## Running UMMKD
 To run our 2D version, can directly use the tfrecord data released in our another relevant project from [here](https://github.com/carrenD/Medical-Cross-Modality-Domain-Adaptation)
 
-To train the model:
+To train the model, specify the training configurations (can simply use the default setting), and run:
 ```
 python main_combine.py  --phase training
 ```
 
-To test the model:
+To test the model, specify the path of the model to be tested, and run:
 ```
 python main_combine.py  --phase testing
 ```
