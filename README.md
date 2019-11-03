@@ -16,3 +16,5 @@ To test the model, specify the path of the model to be tested, and run:
 ```
 python main_combine.py  --phase testing
 ```
+
+Tensorboard will automatically launched with port specified in main_combine.py
