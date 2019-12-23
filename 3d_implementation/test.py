@@ -303,11 +303,8 @@ def main(test_model=None, version_config=None):
     logging.info("Network built ...")
     tester = Tester(net = network, source_test_list = source_test_list, target_test_list = target_test_list, output_path = output_path)
 
-    test_model = glob.glob(output_path + "/checkpoint/*-7200.meta")
-    test_model.sort()
-    for model in test_model:
-        tester.test_segmenter(test_model = model[:-5])
-
+    test_model = "xxxx"
+    tester.test_segmenter(test_model = test_model)
 
 if __name__ == "__main__":
         main(version_config=version_config)
