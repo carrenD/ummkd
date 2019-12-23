@@ -13,6 +13,7 @@ pip install -r requirements.txt
 
 
 ## Running UMMKD
+### 2D version
 To run our 2D version, can directly use the tfrecord data released in our another relevant project from [here](https://github.com/carrenD/Medical-Cross-Modality-Domain-Adaptation)
 
 To train the model, specify the training configurations (can simply use the default setting), in main_combine.py set:
