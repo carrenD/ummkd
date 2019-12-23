@@ -30,3 +30,26 @@ source_dice, target_dice = main(test_model=test_model, phase='testing')
 ```
 
 Tensorboard will be automatically launched with port specified in main_combine.py
+
+## Running UMMKD
+### 3D version
+To run our 3D version:
+
+```
+cd 3d_implementation
+```
+
+To train the model, specify the training configurations (can simply use the default setting) in main.py, then run:
+
+```
+python main.py
+```
+
+To test the model, specify the path of the model to be tested:
+```
+test_model = '/path/to/test_model.cpkt'
+```
+then run:
+```
+python test.py
+```
