@@ -31,7 +31,6 @@ source_dice, target_dice = main(test_model=test_model, phase='testing')
 
 Tensorboard will be automatically launched with port specified in main_combine.py
 
-## Running UMMKD
 ### 3D version
 To run our 3D version:
 

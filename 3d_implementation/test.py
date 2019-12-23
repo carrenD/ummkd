@@ -43,7 +43,7 @@ cost_kwargs = {
 
 version_config = {
     "prefix": '',
-    "date": 'sifn_0.4',
+    "date": 'sifn_0.5',
 }
 logging.basicConfig(filename='./output/log/' + version_config["date"] + '_test_log', level=logging.DEBUG, format='%(asctime)s %(message)s')
 currtime = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
