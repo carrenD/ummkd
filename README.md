@@ -1,7 +1,7 @@
 # UMMKD
 
 <p align="left">
-    <img src="assets/overview.png" width="95%" height="95%">
+    <img src="assets/overview.png" width="85%" height="85%">
 </p>
 
 [**_Unpaired Multi-modal Segmentation with Knowledge Distillation_**](https://carrend.github.io/)
