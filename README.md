@@ -1,10 +1,10 @@
 # UMMKD
 
 <p align="left">
-    <img src="assets/dou1.pdf" width="65%" height="65%">
+    <img src="assets/overview.png" width="75%" height="75%">
 </p>
 
-[**Unpaired Multi-modal Segmentation with Knowledge Distillation**](https://carrend.github.io/)
+[**_Unpaired Multi-modal Segmentation with Knowledge Distillation_**](https://carrend.github.io/)
 
 > We propose a novel learning scheme for unpaired cross-modality image segmentation, with a highly compact architecture achieving superior segmentation accuracy. In our method, we heavily reuse network parameters, by sharing all convolutional kernels across CT and MRI, and only employ modality-specific internal normalization layers which compute respective statistics. To effectively train such a highly compact model, we introduce a novel loss term inspired by knowledge distillation, by explicitly constraining the KL-divergence of our derived prediction distributions between modalities. We have extensively validated our approach on two multi-class segmentation problems: i) cardiac structure segmentation, and ii) abdominal organ segmentation. Different network settings, i.e., 2D dilated network and 3D U-Net, are utilized to investigate our method's general efficacy. 
 
