@@ -1,8 +1,24 @@
 # UMMKD
 
-**Unpaired Multi-modal Segmentation with Knowledge Distillation (TMI 2020)**
+<p align="left">
+    <img src="assets/dou1.pdf" width="85%" height="85%">
+</p>
+
+[**Unpaired Multi-modal Segmentation with Knowledge Distillation**](https://carrend.github.io/)
 
 > We propose a novel learning scheme for unpaired cross-modality image segmentation, with a highly compact architecture achieving superior segmentation accuracy. In our method, we heavily reuse network parameters, by sharing all convolutional kernels across CT and MRI, and only employ modality-specific internal normalization layers which compute respective statistics. To effectively train such a highly compact model, we introduce a novel loss term inspired by knowledge distillation, by explicitly constraining the KL-divergence of our derived prediction distributions between modalities. We have extensively validated our approach on two multi-class segmentation problems: i) cardiac structure segmentation, and ii) abdominal organ segmentation. Different network settings, i.e., 2D dilated network and 3D U-Net, are utilized to investigate our method's general efficacy. 
+
+This is the reference implementation of the unpaired multi-modal segmentation method described in our paper:
+```
+@inproceedings{dou2020unpaired,
+    author = {Qi Dou and Quande Liu and Pheng Ann Heng and Ben Glocker},
+    title = {Unpaired Multi-modal Segmentation via Knowledge Distillation},
+    booktitle = {IEEE Transactions on Medical Imaging},
+    year = {2020},
+}
+```
+
+If you make use of the code, please cite the paper in any resulting publications.
 
 ## Setup
 
